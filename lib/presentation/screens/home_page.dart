@@ -124,7 +124,33 @@ class HomePage extends StatelessWidget {
           );
         },
       ),
-      floatingActionButton: FloatingActionButton(onPressed: () {}),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          showDialog(
+            context: context,
+            builder: (context) {
+              return AlertDialog(
+                shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(16)),
+                title: const Text("Contact Number"),
+                content: const Text(
+                  "+251 911 111 111",
+                  style: TextStyle(
+                      fontSize: 24,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.white),
+                ),
+                actions: [
+                  TextButton(
+                    onPressed: () => Navigator.pop(context),
+                    child: const Text("Close"),
+                  ),
+                ],
+              );
+            },
+          );
+        },
+      ),
     );
   }
 }
@@ -251,7 +277,10 @@ class _CategoryGridState extends State<CategoryGrid> {
                   ? LinearGradient(
                       begin: Alignment.topLeft,
                       end: Alignment.bottomRight,
-                      colors: [Colors.blue.shade300, Colors.blue.shade600],
+                      colors: [
+                        Color.fromRGBO(230, 0, 0, 0.7),
+                        Color.fromRGBO(255, 52, 52, 1)
+                      ],
                     )
                   : null,
             ),

@@ -5,8 +5,7 @@ import 'package:pagebeya/data/models/cartitem.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class CartService {
-  static const String _baseUrl =
-      'https://pa-ecommerce-g3fa44gsl-biniyam-29s-projects.vercel.app';
+  static const String _baseUrl = 'https://1clr2kph-3005.uks1.devtunnels.ms';
 
   Future<List<CartItem>> fetchCart(String userId) async {
     SharedPreferences prefs = await SharedPreferences.getInstance();

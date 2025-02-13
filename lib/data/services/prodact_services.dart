@@ -3,8 +3,7 @@ import 'package:http/http.dart' as http;
 import 'package:pagebeya/data/models/product.dart';
 
 class ProductService {
-  static const String _baseUrl =
-      'https://pa-ecommerce-g3fa44gsl-biniyam-29s-projects.vercel.app';
+  static const String _baseUrl = 'https://1clr2kph-3005.uks1.devtunnels.ms';
 
   Future<List<Product>> fetchProducts() async {
     final response = await http.get(Uri.parse('$_baseUrl/product'));

@@ -90,7 +90,7 @@ class PagebeyaApp extends StatelessWidget {
         ),
       ),
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: LoginScreen(),
       routes: {
         '/home': (context) => HomePage(),
         '/cart': (context) => CartPage(),
