@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:pagebeya/data/services/auth_provider.dart';
-import 'package:pagebeya/data/services/cart_provider.dart';
+import 'package:pagebeya/data/provider/auth_provider.dart';
+import 'package:pagebeya/data/provider/cart_provider.dart';
 import 'package:pagebeya/data/services/cart_services.dart';
-import 'package:pagebeya/data/services/catagori_provider.dart';
+import 'package:pagebeya/data/provider/catagori_provider.dart';
 import 'package:pagebeya/data/services/categoryService.dart';
-import 'package:pagebeya/data/services/prodact_provider.dart';
+import 'package:pagebeya/data/provider/prodact_provider.dart';
 import 'package:pagebeya/data/services/prodact_services.dart';
 
 import 'package:pagebeya/presentation/screens/cart_page.dart';

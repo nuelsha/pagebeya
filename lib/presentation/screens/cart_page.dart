@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:pagebeya/data/models/cartitem.dart';
 import 'package:pagebeya/data/models/product.dart';
-import 'package:pagebeya/data/services/cart_provider.dart';
-import 'package:pagebeya/data/services/prodact_provider.dart';
+import 'package:pagebeya/data/provider/cart_provider.dart';
+import 'package:pagebeya/data/provider/prodact_provider.dart';
 import 'package:provider/provider.dart';
 
 class CartPage extends StatefulWidget {

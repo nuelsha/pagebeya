@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:pagebeya/data/models/user.dart';
 import 'package:http/http.dart' as http;
-import 'package:pagebeya/data/services/user_provider.dart';
+import 'package:pagebeya/data/provider/user_provider.dart';
 import 'dart:convert';
 
 import 'package:pagebeya/utils/utils.dart';

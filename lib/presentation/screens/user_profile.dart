@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:pagebeya/data/models/user.dart';
 import 'package:pagebeya/data/services/auth_services.dart';
-import 'package:pagebeya/data/services/user_provider.dart';
+import 'package:pagebeya/data/provider/user_provider.dart';
 import 'package:provider/provider.dart';
-import 'package:pagebeya/data/services/auth_provider.dart';
+import 'package:pagebeya/data/provider/auth_provider.dart';
 
 class UserProfilePage extends StatefulWidget {
   @override

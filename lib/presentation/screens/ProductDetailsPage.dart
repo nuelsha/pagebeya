@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:pagebeya/data/services/cart_provider.dart';
-import 'package:pagebeya/data/services/user_provider.dart';
+import 'package:pagebeya/data/provider/cart_provider.dart';
+import 'package:pagebeya/data/provider/user_provider.dart';
 import 'package:provider/provider.dart';
 import 'package:pagebeya/data/models/product.dart';
 

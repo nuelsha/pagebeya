@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pagebeya/data/services/auth_provider.dart';
+import 'package:pagebeya/data/provider/auth_provider.dart';
 import 'package:pagebeya/data/services/auth_services.dart';
 import 'package:pagebeya/presentation/screens/login_screen.dart';
 import 'package:provider/provider.dart';
